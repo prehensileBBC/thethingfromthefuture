@@ -47,11 +47,16 @@ a, a:visited {
 }
 
 .card-icon {
+    color: white;
+    margin: 14pt 0; 
+}
+
+.card-icon h5 {
     border-radius: 50%;
     border: 2pt white solid;
+    padding: 8pt;
     display: inline;
-    color: white;
-    margin: 8pt 0;
+    padding: 4pt 10pt;
 }
 
 .card-label {
@@ -61,6 +66,10 @@ a, a:visited {
 .card-title {
     margin-top: 16pt;
     font-family: 'Bebas Neue', cursive;
+}
+
+.card-subtitle {
+    font-size: 1em;
 }
 
 .arc {
