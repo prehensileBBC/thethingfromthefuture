@@ -1,0 +1,93 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+a, a:visited {
+    color: black;
+}
+
+.navbar .row {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container {
+    margin-top: 0;
+}
+
+.container {
+    margin-top: .5rem;
+}
+
+.row {
+    margin: 16pt 0;
+}
+
+.card h1, .bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: .5rem;
+    padding-bottom: 48pt;
+}
+
+.btn, .card {
+    border: 4pt black solid;
+}
+
+.card-icon {
+    border-radius: 50%;
+    border: 2pt white solid;
+    display: inline;
+    color: white;
+    margin: 8pt 0;
+}
+
+.card-label {
+    color: white;
+}
+
+.card-title {
+    margin-top: 16pt;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.arc {
+    background-color: #8ec741;
+}
+
+.terrain {
+    background-color: #00bef3;
+}
+
+.object {
+    background-color: #f36d7d;
+}
+
+.mood {
+    background-color: #be8ebe;
+}
+
+#row-card-info h2, #row-card-info h3 {
+    text-transform: uppercase;
+} 
+
+#row-card-info h2 {
+    font-size: 1.5rem;
+}
+
+#row-card-info h3 {
+    font-size: 1rem;
+}
+

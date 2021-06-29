@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&display=swap" rel="stylesheet"> 
+
+    <link href="main.css" rel="stylesheet">
+
+    <title>The Thing From The Future</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="bebas">The Thing From The Future</h1>
+
+      <div class="row">
+        <div class="col">
+          <h2>GAMEPLAY OVERVIEW</h2>
+          <p>The object of the game is to come up with the most entertaining and thought-provoking descriptions of hypothetical objects from different near-, medium-, and long-term futures. Each round, players collectively generate a creative prompt by playing a card game. This prompt outlines the kind of future that the thing-to-be-imagined comes from, specifies what part of society or culture it belongs to, describes the type of object that it is, and suggests an emotional reaction that it might spark in an observer from the present. Players must then each write a short description of an object that fits the constraints of the prompt. These descriptions are then read aloud (without attribution), and players vote on which description they find the most interesting, provocative, or funny. The winner of each round keeps the cards put into play for that round, and whoever has the most cards when the game ends is declared the overall winner.</p>
+        </div>
+        <div class="col">
+          <h2>THE CARDS</h2>
+          <p>There are four types of cards in The Thing From The Future: Arc, Terrain, Object, and Mood. Each round, players will generate a four-card creative prompt containing one of each kind of card. Based on this prompt, players will imagine a thing from the future.</p>
+        </div>
+      </div>
+
+      <div class="row cards" id="row-cards">
+        <div class="col">
+          <div class="card arc" id="card-arc">
+            <h5 class="card-icon">A</h5>
+            <h6 class="card-label">ARC</h6>
+            <h1 class="card-title">ARC</h5>
+            <h2 class="card-subtitle">Card subtitle</h2>
+          </div>
+          <button type="button" class="btn btn-dark" data-card="arc">Another!</button>
+        </div>
+        <div class="col">
+          <div class="card terrain" id="card-terrain">
+            <h5 class="card-icon">T</h5>
+            <h6 class="card-label">TERRAIN</h6>
+            <h1 class="card-title">TERRAIN</h5>
+          </div>
+          <button type="button" class="btn btn-dark" data-card="terrain">Another!</button>
+        </div>
+        <div class="col">
+          <div class="card object" id="card-object">
+            <h5 class="card-icon">A</h5>
+            <h6 class="card-label">OBJECT</h6>
+            <h1 class="card-title">OBJECT</h5>
+          </div>
+          <button type="button" class="btn btn-dark" data-card="object">Another!</button>
+        </div>
+        <div class="col">
+          <div class="card mood" id="card-mood">
+            <h5 class="card-icon">A</h5>
+            <h6 class="card-label">MOOD</h6>
+            <h1 class="card-title">MOOD</h5>
+          </div>
+          <button type="button" class="btn btn-dark" data-card="mood">Another!</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="row" id="row-card-info">
+        <div class="col">
+          <h2>Arc cards</h2>
+          <p>ARC cards broadly describe different kinds of possible futures. These cards contain two kinds of information. The main (top) text of each Arc card specifies one of four generic images of alternative futures for players to imagine: Grow, Collapse, Discipline, or Transform.*</p>
+          <p><strong>Grow</strong> is a kind of future in which everything and everyone keeps climbing: population, production, consumption...</p>
+          <p><strong>Collapse</strong> is a kind of future in which life as we know it has fallen – or is falling – apart.</p>
+          <p><strong>Discipline</strong> is a kind of future in which things are carefully managed by concerted coordination, perhaps top-down or perhaps collaboratively.</p>
+          <p><strong>Transform</strong> is a kind of future in which a profound historical transition has occurred, whether spiritual or technological in nature.</p>
+          <p>The Arc card does not denote a specific future scenario; rather, it indicates a broad trajectory or category of scenario — a “plot type” rather than a particular narrative. Countless scenarios might be imagined as playing out under each of these generic umbrellas.</p>
+          <p>The bottom text on each Arc card describes the “time horizon” — the distance into the future that players must project their imaginations. In the standard The Thing From The Future deck, time horizons can be anywhere from seven to 1000 years out.</p>
+          <p>The deck also includes several ARC WILDCARDS. A player laying down an Arc Wildcard must choose the arc of the future in question (grow, collapse, discipline or transform) and the time horizon. This may be noted on an index card and placed in play with the rest of the prompt.</p>
+          <p>* This aspect of the game design owes a debt to the work of Professor Jim Dator on “generic images of the future” at the Hawaii Research Center for Futures Studies.</p>
+        </div>
+        <div class="col">
+          <h2>Terrain cards</h2>
+          <p>TERRAIN cards describe contexts, places, and topic areas. In a completed prompt, the terrain card describes where – physically or conceptually – the thing from the future might be found. Two terrains appear on each card in order to provide richer possibilities for the deck.</p>
+        </div>
+        <div class="col">
+          <h2>Object cards</h2>
+          OBJECT cards describe the basic form of the thing from the future.
+        </div>
+        <div class="col">
+          <h2>Mood cards</h2>
+          MOOD cards describe emotions that the thing from the future might evoke in an observer from the present.
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-auto">
+            <a target="_blank" class="bebas" href="http://situationlab.org/project/the-thing-from-the-future/">THE THING FROM THE FUTURE</a>
+            | A game by Stuart Candy and Jeff Watson
+          </div>
+          <div class="col">
+            <a href="https://creativecommons.org/licenses/by-nc-sa">2015 CC-BY-NC-SA</a> | <a target="_blank" href="https://situationlab.org">situationlab.org</a> | <a target="_blank" href="https://twitter.com/sitlab">@sitlab</a>
+          </div>
+          <div class="col-md-auto">
+            Web version by <a target="_blank" href="https://www.bbc.co.uk/rd/people/henry-cooke">Henry Cooke</a>, <a target="_blank" href="https://www.bbc.co.uk/rd">BBC R&D</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

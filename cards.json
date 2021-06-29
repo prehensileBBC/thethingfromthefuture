@@ -1,0 +1,262 @@
+{
+	"arc" : [
+		[ "Collapse", "A few years" ],
+		[ "Collapse", "A decade" ],
+		[ "Collapse", "A generation" ],
+		[ "Collapse", "Two generations" ],
+		[ "Collapse", "A century" ],
+		[ "Collapse", "A millennium" ],
+		[ "Discipline", "A few years" ],
+		[ "Discipline", "A decade" ],
+		[ "Discipline", "A generation" ],
+		[ "Discipline", "Two generations" ],
+		[ "Discipline", "A century" ],
+		[ "Discipline", "A millennium" ],
+		[ "Grow", "A few years" ],
+		[ "Grow", "A decade" ],
+		[ "Grow", "A generation" ],
+		[ "Grow", "Two generations" ],
+		[ "Grow", "A century" ],
+		[ "Grow", "A millennium" ],
+		[ "Transform", "A few years" ],
+		[ "Transform", "A decade" ],
+		[ "Transform", "A generation" ],
+		[ "Transform", "Two generations" ],
+		[ "Transform", "A century" ],
+		[ "Transform", "A millennium" ]
+	],
+	"terrain" : [
+		"Agriculture",
+		"The Brain",
+		"Childhood",
+		"Citizenship",
+		"Class",
+		"Climate",
+		"Cloning",
+		"Communications",
+		"Court",
+		"Disease",
+		"Drones",
+		"The Economy",
+		"Education",
+		"Entertainment",
+		"Environment",
+		"Equality",
+		"Family",
+		"Fashion",
+		"Flight",
+		"Forests",
+		"Genetics",
+		"Gender",
+		"Governance",
+		"Health",
+		"Hobbies",
+		"Home",
+		"Identity",
+		"Insects",
+		"Intellectual Property",
+		"Journalism",
+		"Justice",
+		"Learning",
+		"Memory",
+		"Mining",
+		"The Moon",
+		"Music",
+		"Oceans",
+		"Oil",
+		"Old Age",
+		"Pets",
+		"Power",
+		"Religion",
+		"Robots",
+		"Sex",
+		"Shopping",
+		"Space",
+		"Sports",
+		"Theatre",
+		"Travel",
+		"War",
+		"Water",
+		"Wealth",
+		"Women",
+		"Work",
+		"Zombies",
+		"The Zoo",
+		"Wildcard"
+	],
+	"object" : [
+		"Advertisement",
+		"Artwork",
+		"Beverage",
+		"Book",
+		"Bottle",
+		"Box",
+		"Brochure",
+		"Building",
+		"Candy",
+		"Clothing",
+		"Corporation",
+		"Device",
+		"Document",
+		"Event",
+		"Festival",
+		"Flag",
+		"Game",
+		"Gift",
+		"Headline",
+		"Implant",
+		"Instrument",
+		"Jewellery",
+		"Kit",
+		"Law",
+		"Logo",
+		"Lotion",
+		"Machine",
+		"Magazine cover",
+		"Map",
+		"Mask",
+		"Monument",
+		"Passport",
+		"Pill",
+		"Plant",
+		"Postcard",
+		"Poster",
+		"Product",
+		"Prosthetic",
+		"Public service announcement",
+		"Relic",
+		"Ritual",
+		"Show",
+		"Slogan",
+		"Snack",
+		"Song",
+		"Souvenir",
+		"Statue",
+		"Sticker",
+		"Symbol",
+		"T-Shirt",
+		"Tattoo",
+		"Tool",
+		"Toy",
+		"Vehicle",
+		"Video",
+		"Weapon",
+		"Wildcard"
+	],
+	"mood" : [
+		"Admiration",
+		"Alienation",
+		"Amusement",
+		"Anger",
+		"Anxiety",
+		"Awkwardness",
+		"Calm",
+		"Charm",
+		"Cheer",
+		"Contentment",
+		"Curiosity",
+		"Decadence",
+		"Delight",
+		"Dignity",
+		"Disgust",
+		"Dread",
+		"Embarrassment",
+		"Excitement",
+		"Exhilaration",
+		"Fascination",
+		"Fervor",
+		"Frustration",
+		"Gratitude",
+		"Happiness",
+		"Hilarity",
+		"Hope",
+		"Longing",
+		"Malaise",
+		"Melancholy",
+		"Melodrama",
+		"Nostalgia",
+		"Optimism",
+		"Outrage",
+		"Pathos",
+		"Pleasure",
+		"Pride",
+		"Rationality",
+		"Relief",
+		"Resentment",
+		"Respect",
+		"Sadness",
+		"Satisfaction",
+		"Serenity",
+		"Shame",
+		"Shock",
+		"Sorrow",
+		"Surprise",
+		"Unease",
+		"Warmth",
+		"Weirdness",
+		"Wellbeing",
+		"Wonder",
+		"Worry",
+		"Zen"
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
