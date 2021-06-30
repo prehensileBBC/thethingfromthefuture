@@ -28,6 +28,10 @@ a, a:visited {
     margin: 16pt 0;
 } */
 
+#btn-shuffle {
+    margin-right: 8pt;
+}
+
 .card h1, .bebas {
     font-family: 'Bebas Neue', cursive;
 }
