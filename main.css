@@ -24,9 +24,9 @@ a, a:visited {
     margin-top: .5rem;
 }
 
-.row {
+/* .row {
     margin: 16pt 0;
-}
+} */
 
 .card h1, .bebas {
     font-family: 'Bebas Neue', cursive;
@@ -43,7 +43,7 @@ a, a:visited {
     height: 80%;
 }
 
-.btn, .card {
+.cards .btn, .card {
     border: 4pt black solid;
 }
 

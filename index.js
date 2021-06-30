@@ -19,9 +19,17 @@ function initData( callback ){
 }
 
 function initUI(){
+
+	// set up individual shuffle buttons
 	for( const btnElement of document.getElementsByClassName("btn") ) {
-		btnElement.onclick = function(){
-			onButtonPressed( btnElement.dataset.card );
+		if( btnElement.id == "btn-shuffle" ){
+			btnElement.onclick = function(){
+				randomiseCards();
+			}
+		} else {
+			btnElement.onclick = function(){
+				onButtonPressed( btnElement.dataset.card );
+			}
 		}
 	}
 }
