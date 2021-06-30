@@ -39,7 +39,8 @@ a, a:visited {
 .card {
     text-align: center;
     margin-bottom: .5rem;
-    padding-bottom: 48pt;
+    padding-bottom: 96pt;
+    height: 80%;
 }
 
 .btn, .card {
